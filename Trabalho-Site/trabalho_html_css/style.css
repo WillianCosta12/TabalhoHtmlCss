@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url(./imagens/fundo.jpg);
+    height: 100%;
+}
+
+#container{
+    min-height:100%;
+    position:relative;
+}
+
+#menu img{
+    width: 100px;
+    height: 100px;
+    list-style: none;
+
+}
+#menu ul{
+    margin: 0px;
+    list-style: none;
+    background-color: rgb(0, 140, 255);
+    padding: 0px;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;
+}
+#topo{
+    height: 30px; 
+    width: 90%;
+}
+
+#menu ul li a:hover{
+    text-decoration:underline; 
+    text-decoration-color: black
+}
+
+#geral img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+#geral p{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;
+}
+
+#rodape{
+    bottom:0;
+    width:100%;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;
+}
+
+#sobre img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sobre p{
+    text-align: justify; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: black;
+    text-indent: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#sobre h1{
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    color: black;
+}
+
+#midia img{
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    display: inline-block;
+
+}
+#midia ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+#midia ul li{
+    display: inline;
+}
+
+#midia ul li a{
+    padding: 0px 0px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#midia p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;
+    text-align: left;
+}
+
+#midia ul li a:hover{
+    text-decoration:underline; 
+    text-decoration-color: black;
+    
+}
+
+#lojas p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;
+    text-align: center;
+}
+
+#lojas h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    color: black;
+}
+
+#loja1{
+    width: 35%;
+    height: 300px;
+    overflow: scroll;
+    overflow-x: unset;
+    
+}
+
+#loja1 p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: black;
+    text-align: left;
+}
+
+#lojas img{
+    width: 65%;
+    height: 300px;
+    float: right;
+    text-align: right;
+}
+
+#loja2{
+    width: 35%;
+    height: 300px;
+    overflow: scroll;
+    overflow-x: unset;
+    
+}
+
+#loja2 p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: black;
+    text-align: left;
+}
+
+#produtos img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+}
+
+#listas img{
+    height: 100px;
+    width: 100px;
+    margin-left: 0%;
+    list-style: none;
+}
+
+#promocoes img{
+    height: 300px;
+    width: 300px;
+    margin-left: 0%;
+    list-style: none;  
+}
+
+#produtos p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: black;
+    text-align: left;
+}
+
+#produtos ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+#produtos ul li{
+    display: inline-block;
+    padding: 10px 30px;
+    
+}
+
+#imgLoja img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    width: 700px;
+    height: 500px;
+}
+
+#produtos h1{
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    color: black;
+}
