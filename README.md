@@ -1,2 +1,2 @@
 # TabalhoHtmlCss
- Um Basico trabalho de html e css para a escola
+ Um Basico trabalho de html e css como trabalho escolar
